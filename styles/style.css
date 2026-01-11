@@ -6,6 +6,8 @@
 header{
     border: 1px solid red;
     padding-top: 16px;
+
+   
 }
 
 
@@ -21,7 +23,7 @@ header{
 
 
 
-
+/* Nav bar codes start here */
 
 nav{
     max-width: 1600px;
@@ -37,12 +39,6 @@ nav .logo img{
     width: 100%;
     max-width:139px;
 }
-
-
-
-
-
-
 
 
 nav .menu ul {
@@ -73,3 +69,54 @@ nav .btn button{
 nav .btn button:hover{
     background-color: rgba(0, 240, 108, 0.829) ;
 }
+
+/* nav bar code end here */
+
+
+/* hero section code start here */
+
+#hero{
+    border: 1px solid green;
+    max-width: 1360px;
+    margin:0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    gap: 16px;
+     
+}
+
+     
+
+#hero .upper-button button{
+    max-width: 229px;
+   
+    border: none;
+    border-radius: 100px;
+     background-color: #FFFFFF;
+     color:#469165;
+       border: 1px solid red;
+     
+}
+
+#hero p{
+    text-align: center;
+    
+}
+
+#hero .lower-button {
+     margin-top: 16px; }
+     
+
+#banner{
+    
+      
+      background-size: 2042px;
+      border: 1px solid red;
+      background-image: url(/Assignment-one/assets/hero-bg.png);
+     background-position:center ;
+   
+    background-repeat: no-repeat;
+    padding: 70px 120px 134px 120px;
+}
+
