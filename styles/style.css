@@ -3,8 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
+/* ------header codes start from here------------- */
 header {
+ 
   margin: 0;
   padding-top: 16px;
   border: 1px solid red;
@@ -16,13 +17,14 @@ header {
   font-optical-sizing: auto;
 }
 
-/* Nav bar codes start here */
+/*----------- Nav bar codes start here ----------------*/
 
 nav {
   width: 100%;
-  max-width: 1600px;
+   max-width: 1600px;
 
-  margin: 0 120px 0 120px;
+  margin: 0 auto;
+  padding: 0 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -182,14 +184,18 @@ nav .btn button:hover {
   text-align: center;
   color: #30b868;
 }
-/* hero section code ends here */
+/*--------- hero section codes ends here -------------*/
+/* ------------header codes end here----------------- */
 
-/* main section codes start here */
 
+
+/*---------main section codes start here ---------*/
+
+/* ------Upper part codes start here------------ */
 main #upper-section {
-  width: 1600px;
+  max-width: 1360px;
   border: 1px solid blue;
-  margin: 0 120px;
+  margin: 0 auto;
 }
 
 main #upper-section .Above {
@@ -215,6 +221,7 @@ main #upper-section .Above p {
 }
 
 main .card-section {
+  max-width: 1360px;
   margin-top: 44px;
   border: 1px solid red;
 
@@ -264,4 +271,55 @@ main .card-section .card {
 .card p {
   font-size: 16px;
   color: #627382;
+}
+
+/* ---------upper part codes end here -------------*/
+
+
+/*----------- Middle part codes start here -------*/
+
+main #middle .middle-part{
+  width: 100%;
+  padding: 0 120px 0px 120px;
+  background-color: antiquewhite;
+  border: 1px solid green;
+}
+
+.middle-part-contents{
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+}
+
+.description{
+  max-width: 700px;
+  border: 1px solid black;
+  margin:auto 0;
+
+}
+
+.description h6 span{
+  color:#30B868;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+
+}
+
+.description h2{
+  color:#001931;
+  font-size: 48px;
+  font-weight: 700;
+ margin-bottom: 16px;
+}
+.description p{
+  color:#627382;
+  font-size: 16px;
+   line-height: 20px;
+margin-bottom: 40px;
 }
