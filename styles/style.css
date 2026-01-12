@@ -192,6 +192,9 @@ nav .btn button:hover {
 /*---------main section codes start here ---------*/
 
 /* ------Upper part codes start here------------ */
+main #up{
+  background-color: #fafafa81;
+}
 main #upper-section {
   max-width: 1360px;
 
@@ -282,8 +285,8 @@ main #middle .middle-part{
   width: 100%;
   padding: 0 120px 0px 120px;
   background-color: #FFFFFF;
-  box-shadow: 0px 4px 4px 0px #00000015;
-  border: 1px solid green;
+ 
+  
 }
 
 .middle-part-contents{
@@ -351,7 +354,7 @@ margin-bottom: 40px;
  main #last-section .last-part{
    background-color:#FFFFFF;
    width:100%;
-   border: 1px solid blueviolet;
+  
  }
 .last-part-contents{
 background-color: #F7F6F2;
@@ -428,5 +431,56 @@ margin-bottom: 16px;
 }
 /*---------- last section code ends here -----------*/
 
-/*------------ Main section code start here-------- */
+/*------------ Main section code ends here-------- */
 
+
+
+/* ----------Footer section codes start here--------------- */
+.footer-section{
+width:100%;
+margin-top: 120px;
+ background-color: rgb(3, 44, 83);
+
+padding: 120px 120px 30px 120px;
+
+
+}
+
+.first{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.links{
+  max-width: 220px;
+
+ 
+  
+}
+.links ul{
+  display: flex;
+  gap:16px;
+  padding-right: 128px;
+}
+.links p{
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+   padding-right: 107px;
+}
+
+.last{
+  border-top: 1px solid  rgba(229, 231, 235, 0.568);
+ width: 100%;
+margin-top: 80px;
+
+}
+.last p{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+  padding-top: 30px;
+}
+/* ---------Footer sectio codes end here --------------------*/
