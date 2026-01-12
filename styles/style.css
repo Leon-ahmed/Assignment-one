@@ -8,7 +8,7 @@ header {
  
   margin: 0;
   padding-top: 16px;
-  border: 1px solid red;
+  
   box-sizing: border-box;
 }
 
@@ -28,7 +28,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
+ 
   background-color: #ffffff;
 }
 
@@ -70,7 +70,7 @@ nav .btn button:hover {
 /* hero section code start here */
 
 #hero {
-  border: 1px solid green;
+ 
   max-width: 1360px;
   margin: 0 auto;
   display: flex;
@@ -95,7 +95,7 @@ nav .btn button:hover {
   border-radius: 1000px;
   background-color: #ffffff;
   color: #469165;
-  /* border: 1px solid red; */
+  
 }
 #hero .upper-button button:hover {
   background-color: beige;
@@ -156,7 +156,7 @@ nav .btn button:hover {
 }
 
 #banner {
-  border: 1px solid red;
+  
   margin-top: 16px;
   padding: 70px 120px 134px 120px;
   background-image: url(/Assignment-one/assets/hero-bg.png);
@@ -167,7 +167,7 @@ nav .btn button:hover {
 
 #banner .line {
   width: 770px;
-  border: 1px solid rgb(65, 211, 126);
+ 
   white-space: nowrap;
 }
 
@@ -194,13 +194,13 @@ nav .btn button:hover {
 /* ------Upper part codes start here------------ */
 main #upper-section {
   max-width: 1360px;
-  border: 1px solid blue;
+
   margin: 0 auto;
 }
 
 main #upper-section .Above {
   height: 152px;
-  border: 1px solid rgb(60, 228, 97);
+
 
   display: flex;
   flex-direction: column;
@@ -223,7 +223,7 @@ main #upper-section .Above p {
 main .card-section {
   max-width: 1360px;
   margin-top: 44px;
-  border: 1px solid red;
+  
 
   display: flex;
   justify-content: space-between;
@@ -281,24 +281,31 @@ main .card-section .card {
 main #middle .middle-part{
   width: 100%;
   padding: 0 120px 0px 120px;
-  background-color: antiquewhite;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 4px 0px #00000015;
   border: 1px solid green;
 }
 
 .middle-part-contents{
   width: 100%;
   max-width: 1360px;
-  margin: 0 auto;
-  border: 1px solid black;
+  margin: 120px auto;
+ 
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 60px;
 }
+.image{
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+  
+}
 
 .description{
   max-width: 700px;
-  border: 1px solid black;
+
   margin:auto 0;
 
 }
@@ -323,3 +330,103 @@ main #middle .middle-part{
    line-height: 20px;
 margin-bottom: 40px;
 }
+
+ .lists ul {
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  
+ }
+ .lists ul li{
+  display: flex;
+  flex-direction: row;
+  gap:6px;
+  
+ }
+/* -----------Middle section codes ends here-------- */
+
+
+ /* ------last section code start here------- */
+ 
+ main #last-section .last-part{
+   background-color:#FFFFFF;
+   width:100%;
+   border: 1px solid blueviolet;
+ }
+.last-part-contents{
+background-color: #F7F6F2;
+border-radius: 12px;
+max-width: 1360px;
+margin: 0 auto;
+padding: 80px 40px;
+
+}
+
+.heading{
+margin:0 auto;
+max-width: 1280px;
+
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.heading h2{
+color: #001931;
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 16px;
+
+}
+
+.heading p, .btn2 p{
+  font-size: 16px;
+  color: #627382;
+  
+}
+
+
+
+
+
+
+
+
+
+
+.btn2{
+  max-width: 1280px;
+  margin-top: 24px;
+ 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ 
+}
+
+.btn2 button{
+  max-width:194px ; 
+  color:#FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #469165;
+  margin-bottom: 16px;
+  padding: 12px 16px 12px 16px;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn2 button:hover{
+    background-color: #627382;
+}
+/*---------- last section code ends here -----------*/
+
+/*------------ Main section code start here-------- */
+
